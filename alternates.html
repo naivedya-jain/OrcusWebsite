@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap-5.0.0-beta2-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js"></script>
+    <title>Alternates</title>
+</head>
+<body>
+    <h1>Pick alternates from here</h1>
+    <div>
+        <table class="table"> 
+        <thead>
+            <th>
+                Status
+            </th>
+        </thead><i class="fas fa-fill-drip"></i>
+        <tbody>
+            <tr>
+                <td><i class="fas fa-check statusavailable"></i> Available</td>
+            </tr>
+            <tr>
+                <td><i class="fas fa-thumbs-up statusok"></i> OK</td>   
+            </tr>   
+            <tr>
+                <td><i class="fas fa-fill-drip statusempty"></i> EMPTY</td>   
+            </tr> 
+            <tr>
+                <td><i class="fas fa-times statusdamaged"></i> damaged</td>
+            </tr> 
+            <tr>
+                <td><i class="fas fa-question statusmissing"></i> missing</td>
+            </tr>
+            <tr>
+                <td><i class="fas fa-question-circle statusincompletekit"></i> incomplete kit</td>
+            </tr>
+            <tr>
+                <td><i class="fas fa-exclamation statuspartiallydamaged"></i> partially damaged</td>
+            </tr>                
+            <tr>
+                <td><i class="fas fa-clipboard-check statusissued"></i> issued</td>
+            </tr>
+            <tr>
+                <td>
+                    <i class="fas fa-hourglass-half statusmaintenance"></i> Under Maintenance
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <i class="far fa-clock statuspending"> PENDING</i>
+                </td>
+            </tr>
+            <tr>
+                <td>`
+                    <i class="fas fa-user-edit edituser"></i> Edit</i>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <i class="fas fa-edit edititem"></i> Edit</i>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <i class="fas fa-clipboard userdetails"> User Details</i>
+                </td>
+            </tr>
+        </tbody>
+        </table>
+    </div> 
+    <div class="profilebadges">
+        <h3>Tool Profile status</h3>
+        <ul>
+            <li><span class="badge badgeavailable" title="Available"><i class="fas fa-check"></i> Available</span></li>
+            <li><span class="badge badgedamage" title="Damage"><i class="fas fa-times"></i> Damage</span></li>
+            <li><span class="badge badgeempty" title="Damage"><i class="fas fa-fill-drip"></i> EMPTY</span></li>
+            <li><span class="badge badgepartiallydamage" title="Patrially Damage"><i class="fas fa-exclamation-triangle"></i> Partially Damage</span></li>
+            <li><span class="badge badgemissing" title="Missing"><i class="fas fa-question"></i> Missing</span></li>
+            <li><span class="badge badgeincompletekit" title="Incomplete Kit"><i class="fas fa-question-circle"></i> Incomplete Kit</span></li>
+            <li><span class="badge badgemaintenance" title="Under Mintenance"><i class="fas fa-hourglass-half"></i> Under maintenance</span></li>
+            <li><span class="badge badgeissued" title="issued to - Employe(ID)"><i class="fas fa-clipboard-check"></i> Issued</span></li>
+            <li><span class="badge badgecheck"><i class="fas fa-check"></i>  Accepted</span></li>
+            <li><span class="badge badgerejected"><i class="fas fa-times"></i> Rejected</span></li>
+            <li><span class="badge badgeavailable" title="Available"><i class="fas fa-check"></i></span></li>
+            <li><span class="badge badgeexpired"><i class="fas fa-times"></i> Expired</span></li>
+            <li><span class="badge badgeexpired"><i class="fas fa-file-invoice"></i> Invoice</span></li>
+           
+        </ul>
+    <div class="peoplebadges">
+        <h3>people staus</h3>
+        <ul>
+            <li><span class="badge peopleactive"><span> Active </span> </li>
+            <li><span class="badge peopleterminated"> Terminated </span> </li>
+            <li><span class="badge peopleEOC"> End of Contract </span></li>
+        </ul>
+    </div>
+        
+
+    </div>
+    <style>
+        .peoplebadges li,
+        .profilebadges li{
+            list-style: none;
+        }
+    </style>
+</body>
+</html>
